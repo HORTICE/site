@@ -1,0 +1,154 @@
+<!doctype  html>
+<html lang="fr">
+<head>
+     <meta charset="utf-8">
+     <title>titre de ma page</title>
+     <link rel="stylesheet" type="text/css" href="messtyles/styleintro.css">
+     
+</head>
+
+<body >
+     <h1>Restaurant Universitaire de HECM</h1>
+     <img src\Users\HP\Pictures\Screenshot_20220301-063050[1] (2).png">
+  
+     <p>
+     	Depuis la rentrée académique 2022-2023,
+     	notre Ecole ,le leader a gracieusement
+        mis à la disposition des acteurs un
+        magnifique restaurant bien équipé et
+        climatisé qu'on a encore vu nulle  part ailleurs 
+
+       <img src="IMAGES/img_mountains.jpg">
+
+        Ce restaurant a été 
+        inauguré dans le mois d'octobre 2022
+        en présence d'une bonne parterre de 
+        personalités et surtout des étudiants 
+        et des professeurs.Les premières
+        impressions après la création de ce 
+        restaurant ont été très bonnes puisqu'à l'unanimité
+        tous les acteurs ont estimé attendre
+        ce joyau depuis fort longtemps 
+    </p>
+    <h3> Nos prestations<h3/>
+    <section>Crée pendant la période de covid 19, ce restaurant a été implanté pour permettre aux acteurs de HECM de ne pas etre exposés à la contamination pendant leur déplacement.Voici quelques points clés de la politique poursuivis par les iniateurs de ce projet:</section>
+    <ul>
+       <li>La propreté des lieux</li>
+       <li>interdit de fumer</li>
+       <li >Le respect des gestes barrières</li>
+       <li>Le rapport qualité /prix</li>
+    </ul>
+    <p>
+        Menu Proposés:
+        <ol>
+            <li><strong>lundi</strong>
+                <ul>
+                   <li><em>amiwo + jus de tomate</em>
+                  <li>télibo au crincrin</li>
+                </ul>  
+
+            <li><b>mardi</b>
+                <ul>
+                   <li><i>spaghetti+jus de tomate</i>
+                  <li>Riz créole au crincrin</li>
+         .       </ul>
+
+            
+
+       </ol>
+     </p>    
+
+    <table >
+
+        <caption>Programme de service au Resto</caption>
+        <thead></thead>
+        <tr> Restau HECM
+            <td colspan="6">Menu de la semaine</td>
+             <td>OBS</td>
+
+        </tr> 
+
+
+
+        <tr>
+            <td colspan="2">Lundi</td>
+             <td colspan="2">mardi</td>
+              <td colspan="2">Autres jours</td>
+             <td rowspan="3"></td>
+        </tr>          
+        <tr>
+             <td>matin</td>
+             <td>soir</td>
+             <td>matin</td>
+             <td>soir</td>
+             <td>matin</td>
+             <td >soir</td>
+      </tr>.
+
+       <tr>       
+             <td>Bouillie de mil</td>
+             <td>Riz</td>>
+             <td>Café au milo</td>
+             <td>Gombo battu</td>
+             <td>Tapioca</td>
+             <td>legumes</td>
+      </tr>
+
+
+
+
+
+ 
+    </table>  
+
+    <form>
+         <h2>Commande en ligne</h2> 
+
+
+         <label>NOM:</label>
+         <input type="text" name="nomCli"><br/>
+         <label>PRENOM:</label>
+         <input type="text" name="preCli"><br/>
+         <label>DATE DE LIVRAISON:</label>
+         <input type="text" name="datLiv"><br/>
+         <label>PLAT CHOISI:</label>
+         <select><br/>
+               <option>Amiwo à la tomate braisée</option>
+               <option>Café au milo</option>
+               <option>Riz créole</option>
+               <option>Igname pilé</option>
+               <option>Mantindji garni à la langoustre</option>
+
+         </select><br/>
+         <label>NOMBRE DE PLAT:</label>
+         <input type="number" name="nbrePlat"><br/>
+         <label>INGREDIENTS SUPPLEMENTAIRES:</label>
+         <input type="checkbox" name=""> Piment?<br/>
+         <input type="checkbox" name=""> Ail?<br/>
+         <input type="checkbox" name=""> Afitin?<br/>
+         
+
+         <label>EMBALLE A CHAUD ?:</label>
+         <input type="radio" name="chaudFroi">Oui<br/>
+         <input type="radio" name="chaudFroi">Non<br/>
+
+         <label>PREUVE DE PAIMENT:</label>
+         <input type="file" name="namefile"><br/>
+
+         <input type="submit" name="" value="commander"><br/>
+         <input type="button" name="" value="Vérifier"><br/>
+        
+         <button>Vérifier Encore </button>
+         <button>annuler la commande</button>
+         
+    </form>
+
+
+
+
+
+
+  </body> 
+
+
+  </html>
